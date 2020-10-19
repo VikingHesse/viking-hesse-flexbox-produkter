@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #454140;
+    color: white;
+    text-align: center;
+}
+
+.huvudmeny{
+    overflow: hidden;
+    background-color:#454140;
+    color:white;
+    padding: 10px;
+}
+
+.huvudmeny a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 24px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family:Verdana;
+}
+
+.huvudmeny a:hover{
+    background-color:darkgrey;
+    color:black;
+}
+
+
+.shoppingcart{
+    width:50px;
+    height:50px;
+    position:absolute;
+    right:20px;
+    margin-top:4px;
+}
+
+h1{
+    text-align:center;
+    font-size:40px;
+    font-family:Verdana;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.item {
+    flex: 0 32%;
+    height: 180px;
+    margin-bottom: 2%;
+    background-color:mediumaquamarine;
+    border-radius: 8px;
+}
