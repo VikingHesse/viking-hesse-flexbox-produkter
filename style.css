@@ -74,10 +74,33 @@ h1{
     padding:5px;
     margin-left:20px;
     vertical-align: middle; 
-
 }
 
+.ETHimg{
+    padding:5px;
+    margin-left:10px;
+    vertical-align: middle; 
+}
+
+.DOGEimg{
+    padding:5px;
+    margin-left:10px;
+    vertical-align: middle; 
+}
+
+
+
 #BTCtext{
+    font-size:20px;
+    font-family: monospace;
+}
+
+#ETHtext{
+    font-size:20px;
+    font-family: monospace;
+}
+
+#DOGEtext{
     font-size:20px;
     font-family: monospace;
 }
