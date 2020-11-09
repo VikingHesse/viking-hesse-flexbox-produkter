@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    background-color:#ff8c00;
+}
+
 footer{
     position: fixed;
     left: 0;
@@ -18,7 +22,7 @@ footer{
 
 .huvudmeny{
     overflow: hidden;
-    background-color:orange;
+    background-color:#454140;
     color:white;
     padding: 10px;
 }
@@ -34,8 +38,7 @@ footer{
 }
 
 .huvudmeny a:hover{
-    background-color:darkorange;
-    color:black;
+    background-color:black;
 }
 
 
@@ -80,43 +83,20 @@ h3{
 .item {
     flex: 0 32%;
     height: 180px;
-    background-color:orange;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 2px 3px #d1d1d1;
     
 }
 
-.BTCimg{
+.produktimg{
     padding:5px;
     margin-left:20px;
     vertical-align: middle; 
 }
 
-.ETHimg{
-    padding:5px;
-    margin-left:10px;
-    vertical-align: middle; 
-}
 
-.DOGEimg{
-    padding:5px;
-    margin-left:10px;
-    vertical-align: middle; 
-}
-
-
-
-#BTCtext{
-    font-size:20px;
-    font-family: monospace;
-}
-
-#ETHtext{
-    font-size:20px;
-    font-family: monospace;
-}
-
-#DOGEtext{
+#produkttext{
     font-size:20px;
     font-family: monospace;
 }
