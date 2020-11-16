@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head, länkar till css dokument, samt titeln "Produkter"-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,11 @@
 </head>
 <body>
 
+    <!--Länkar till ett script.js dokument, använder inte javascript men testade om det funkar-->
     <script src="script.js"></script>
 
+    <!--Header, skapar en container som heter "huvudmeny" och har flera items (anchors)-->
+    <!--Länkar till de olika html filerna-->
     <header class="huvudmeny">
         <a href="index.html">Huvudmeny</a>
         <a href="products.html">Produkter</a>
@@ -19,19 +23,17 @@
         <a href ="https://designmodo.com/shopping-cart-ui/" target="_blank"><img class="shoppingcart" src="shoppingcart.png"></a>
     </header>
 
+    <!--Header-->
     <h1>Kolla gärna in våra produkter</h1>
 
+    <!--Produkterna, flexbox, en container och tre items med olika bilder samt text-->
     <div class="container">
-
         <div class="item" id="produkttext"><img class="produktimg" src="BTC.png" width="170px" height="170px"></img>Bitcoin</div>
         <div class="item" id="produkttext"><img class="produktimg" src="ETH.png" width="170px" height="170px"></img>Ethereum</div>
         <div class="item" id="produkttext"><img class="produktimg" src="DOGE.png" width="170px" height="170px"></img>Dogecoin</div>
-
     </div>
 
-
+    <!--Footer med copyright-->
     <footer>Copyright &#169; 2020</footer>
 </body>
 </html>
-
-
