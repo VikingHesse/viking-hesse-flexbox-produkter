@@ -1,3 +1,4 @@
+/* Importerar fonts från google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@600&display=swap');
 
 * {
@@ -95,7 +96,7 @@ h3{
     vertical-align: middle; 
 }
 
-
+/* Använd id istället för class här så jag enkelt kan skilja på dem i produktdelen */
 #produkttext{
     font-size:20px;
     font-family: monospace;
