@@ -72,6 +72,9 @@ h3{
     margin-top: 25px;
 }
 
+/* Container, tagit pattern från hemsidan på classroom. Har justify-content: 
+space-between så jag får ett mellanrum emellan produkterna 
+Har också 10px padding och margin-top 20px för att kunna placera produkterna på ett bra sätt*/
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +83,9 @@ h3{
     margin-top: 20px;
 }
 
-
+/* item med flex 0 32% så det skapas 3 "boxar" med samma storlek
+180px height, bgcolor vit och en border radius 8px.
+*/
 .item {
     flex: 0 32%;
     height: 180px;
@@ -90,6 +95,9 @@ h3{
     
 }
 
+/* Class till bilderna som används till produkterna.
+Använder vertical-align: middle för att kunna aligna texten på rätt sätt
+*/
 .produktimg{
     padding:5px;
     margin-left:20px;
